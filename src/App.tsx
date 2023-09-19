@@ -2,16 +2,24 @@ import React from 'react';
 import './App.css';
 import styled from "styled-components";
 
+const Navigation = () => {
+    return (
+        <nav>
+
+        </nav>
+    );
+};
+
 function App() {
-  return (
-      <div className="App">
+    return (
+        <div className="App">
+            <Box>
 
-        <Box>
+                <Navigation/>
 
-        </Box>
-
-      </div>
-  );
+            </Box>
+        </div>
+    );
 }
 
 export default App;
